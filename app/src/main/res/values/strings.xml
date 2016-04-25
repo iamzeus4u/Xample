@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Xample</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hymn1">Leadership is a very crucial aspect of any endeavour involving
+        more than one individual especially if such endeavour is to succeed.
+        Most leadership skill can be acquired however a natural leader should
+        have some basic or inherent qualities in them even if they are not aware of it.
+        I am a natural leader and these are some of those qualities. \n\n\n
+The ability to care about the welfare of others is not
+        just a leadership quality it is a core human value.
+        The aptitude to understand the need of the people around you and
+        provide it even before they ask. As students we were not taught how to
+        use structural design applications such as SAP2000, CSC Orion etc.
+        but I learnt them on my own. During my industrial training I
+        discovered most engineering companies where using these a
+        pplications and designed manually just for checks,
+        I organised my classmates and later on other classes and taught them some of these applications, it actually helped some students improve in class, I went on to teach two of my lecturers.
+</string>
+    <string name="title_activity_q">q</string>
+    <string name="title_activity_w">w</string>
+    <string name="title_activity_z">Z</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.zeus.xample.Z"
+    tools:showIn="@layout/app_bar_z">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/buckysMessage" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contextClickable="false">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Daily, daily sing to Mary, \nSing, my soul, her praises due: \nAll her feasts, her actions honor \nWith the heart\&apos;s devotion true. \n \nLost in wond\&apos;ring contemplation, \nBe her majesty confessed: \nCall her Mother, call her Virgin, \nHappy Mother, Virgin blest. \n \nShe is mighty in her pleading, \nTender in her loving care; \nEver watchful, understanding, \nAll our sorrows she will share. \n \nAdvocate and loving mother, \nMediatrix of all grace: \nHeaven\&apos;s blessings she dispenses \nOn our sinful human race. \n \nAll our graces flow through Mary; \nAll then join her praise to sing: \nFairest work of all creation, \nMother of creation\&apos;s King. \n \nSing in songs of peace unending, \nCall upon her lovingly: \nSeat of wisdom, Gate of heaven, \nMorning star upon the sea."
+            android:id="@+id/buckysMessages"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="147dp" />
+    </ScrollView>
+
+</RelativeLayout>
